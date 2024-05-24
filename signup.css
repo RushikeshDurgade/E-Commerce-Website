@@ -1,0 +1,60 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    padding: 0rem 3rem 0.8rem 3rem;
+
+    background-color: lightblue;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input{
+    width: 15rem;
+    height: 1.2rem;
+    margin-bottom:1rem ;
+}
+#btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+h1{
+    text-align: center;
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#b1{
+    background-color:rgb(64, 218, 64);
+    color: white;
+}
+#b2{
+    background-color:rgb(232, 55, 91);
+    color: white;
+}
+#b1:active{
+    background-color: chartreuse;
+    color: black;
+}
+#b2:active{
+    background-color: red;
+    color: black;
+}
+
+span{
+    color: red;
+}
